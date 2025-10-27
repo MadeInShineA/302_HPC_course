@@ -1,0 +1,4 @@
+# Exercice 3
+
+Dans cet exercice, vous allez écrire un programme en C++ qui lit les 15 premières lignes d’un fichier texte et les affiche dans le terminal. Ce fichier est celui que vous avez généré dans l’exercice précédent, contenant les multiplicateurs. Avant de lire le fichier, le programme doit vérifier qu’il s’ouvre correctement. Si ce n’est pas le cas, il doit afficher un message d’erreur avec **cerr** et quitter proprement à l’aide de **exit**.
+Le nom du fichier ne doit pas être écrit en dur dans le code : il doit être passé en argument lors du lancement du programme. Pour cela, vous utiliserez les paramètres **argc** et **argv** afin de récupérer le nom du fichier depuis la ligne de commande.
